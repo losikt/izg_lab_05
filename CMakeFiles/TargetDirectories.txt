@@ -1,0 +1,9 @@
+C:/skolo/izg/izg5/izg5/build/CMakeFiles/izg_lab_05.dir
+C:/skolo/izg/izg5/izg5/build/CMakeFiles/INSTALL.dir
+C:/skolo/izg/izg5/izg5/build/CMakeFiles/ALL_BUILD.dir
+C:/skolo/izg/izg5/izg5/build/CMakeFiles/ZERO_CHECK.dir
+C:/skolo/izg/izg5/izg5/build/SDL/CMakeFiles/SDL2main.dir
+C:/skolo/izg/izg5/izg5/build/SDL/CMakeFiles/SDL2-static.dir
+C:/skolo/izg/izg5/izg5/build/SDL/CMakeFiles/uninstall.dir
+C:/skolo/izg/izg5/izg5/build/SDL/CMakeFiles/INSTALL.dir
+C:/skolo/izg/izg5/izg5/build/SDL/CMakeFiles/ALL_BUILD.dir

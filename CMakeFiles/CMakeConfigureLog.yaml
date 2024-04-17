@@ -1,0 +1,1145 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild verze 17.8.5+b5265ef37 pro .NET Framework
+      Vytv ýenˇ sestavenˇ bylo zah jeno 17.04.2024 9:28:05.
+      
+      Projekt C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\3.29.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj v uzlu 1 (věchozˇ cˇle).
+      PrepareForBuild:
+        Probˇh  vytv ýenˇ adres ýe Debug\\.
+        Strukturovaně věstup je povoleně. Form tov nˇ diagnostiky kompil toru bude odr §et hierarchii chyb. Dalçˇ podrobnosti najdete na https://aka.ms/cpp/structured-output.
+        Probˇh  vytv ýenˇ adres ýe Debug\\CompilerIdC.tlog\\.
+      InitializeBuildStatus:
+        Probˇh  vytv ýenˇ souboru Debug\\CompilerIdC.tlog\\unsuccessfulbuild v d…sledku zad nˇ AlwaysCreate.
+        Probˇh  aktualizace źasov‚ho razˇtka pro Debug\\CompilerIdC.tlog\\unsuccessfulbuild.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\3.29.0-rc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Probˇh  odstraĺov nˇ souboru Debug\\CompilerIdC.tlog\\unsuccessfulbuild.
+        Probˇh  aktualizace źasov‚ho razˇtka pro Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate.
+      Sestavenˇ projektu C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\3.29.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj (s věchozˇmi cˇli) bylo dokonźeno.
+      
+      Vytv ýenˇ sestavenˇ bylo ŁspŘçnŘ dokonźeno.
+          0 upozornŘnˇ
+          Poźet chyb: 0
+      
+      Uplynulě źas 00:00:01.78
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/skolo/izg/izg5/izg5/build/CMakeFiles/3.29.0-rc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild verze 17.8.5+b5265ef37 pro .NET Framework
+      Vytv ýenˇ sestavenˇ bylo zah jeno 17.04.2024 9:28:07.
+      
+      Projekt C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\3.29.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj v uzlu 1 (věchozˇ cˇle).
+      PrepareForBuild:
+        Probˇh  vytv ýenˇ adres ýe Debug\\.
+        Strukturovaně věstup je povoleně. Form tov nˇ diagnostiky kompil toru bude odr §et hierarchii chyb. Dalçˇ podrobnosti najdete na https://aka.ms/cpp/structured-output.
+        Probˇh  vytv ýenˇ adres ýe Debug\\CompilerIdCXX.tlog\\.
+      InitializeBuildStatus:
+        Probˇh  vytv ýenˇ souboru Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild v d…sledku zad nˇ AlwaysCreate.
+        Probˇh  aktualizace źasov‚ho razˇtka pro Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\3.29.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Probˇh  odstraĺov nˇ souboru Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild.
+        Probˇh  aktualizace źasov‚ho razˇtka pro Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate.
+      Sestavenˇ projektu C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\3.29.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj (s věchozˇmi cˇli) bylo dokonźeno.
+      
+      Vytv ýenˇ sestavenˇ bylo ŁspŘçnŘ dokonźeno.
+          0 upozornŘnˇ
+          Poźet chyb: 0
+      
+      Uplynulě źas 00:00:01.42
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/skolo/izg/izg5/izg5/build/CMakeFiles/3.29.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-bxkni0"
+      binary: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-bxkni0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-bxkni0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_09d59.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.8.5+b5265ef37 pro .NET Framework
+        Vytv ýenˇ sestavenˇ bylo zah jeno 17.04.2024 9:28:09.
+        
+        Projekt C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bxkni0\\cmTC_09d59.vcxproj v uzlu 1 (věchozˇ cˇle).
+        PrepareForBuild:
+          Probˇh  vytv ýenˇ adres ýe cmTC_09d59.dir\\Debug\\.
+          Strukturovaně věstup je povoleně. Form tov nˇ diagnostiky kompil toru bude odr §et hierarchii chyb. Dalçˇ podrobnosti najdete na https://aka.ms/cpp/structured-output.
+          Probˇh  vytv ýenˇ adres ýe C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bxkni0\\Debug\\.
+          Probˇh  vytv ýenˇ adres ýe cmTC_09d59.dir\\Debug\\cmTC_09d59.tlog\\.
+        InitializeBuildStatus:
+          Probˇh  vytv ýenˇ souboru cmTC_09d59.dir\\Debug\\cmTC_09d59.tlog\\unsuccessfulbuild v d…sledku zad nˇ AlwaysCreate.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_09d59.dir\\Debug\\cmTC_09d59.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_09d59.dir\\Debug\\\\" /Fd"cmTC_09d59.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          Optimalizujˇcˇ kompil tor C/C++ spoleźnosti Microsoft (R) verze 19.38.33135 pro procesory x64
+          Copyright (C) Microsoft Corporation. Vçechna pr va vyhrazena.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_09d59.dir\\Debug\\\\" /Fd"cmTC_09d59.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bxkni0\\Debug\\cmTC_09d59.exe" /INCREMENTAL /ILK:"cmTC_09d59.dir\\Debug\\cmTC_09d59.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-bxkni0/Debug/cmTC_09d59.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-bxkni0/Debug/cmTC_09d59.lib" /MACHINE:X64  /machine:x64 cmTC_09d59.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_09d59.vcxproj -> C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bxkni0\\Debug\\cmTC_09d59.exe
+        FinalizeBuildStatus:
+          Probˇh  odstraĺov nˇ souboru cmTC_09d59.dir\\Debug\\cmTC_09d59.tlog\\unsuccessfulbuild.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_09d59.dir\\Debug\\cmTC_09d59.tlog\\cmTC_09d59.lastbuildstate.
+        Sestavenˇ projektu C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bxkni0\\cmTC_09d59.vcxproj (s věchozˇmi cˇli) bylo dokonźeno.
+        
+        Vytv ýenˇ sestavenˇ bylo ŁspŘçnŘ dokonźeno.
+            0 upozornŘnˇ
+            Poźet chyb: 0
+        
+        Uplynulě źas 00:00:01.31
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.38.33135.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-04uxy6"
+      binary: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-04uxy6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-04uxy6'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_513d9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.8.5+b5265ef37 pro .NET Framework
+        Vytv ýenˇ sestavenˇ bylo zah jeno 17.04.2024 9:28:11.
+        
+        Projekt C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-04uxy6\\cmTC_513d9.vcxproj v uzlu 1 (věchozˇ cˇle).
+        PrepareForBuild:
+          Probˇh  vytv ýenˇ adres ýe cmTC_513d9.dir\\Debug\\.
+          Strukturovaně věstup je povoleně. Form tov nˇ diagnostiky kompil toru bude odr §et hierarchii chyb. Dalçˇ podrobnosti najdete na https://aka.ms/cpp/structured-output.
+          Probˇh  vytv ýenˇ adres ýe C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-04uxy6\\Debug\\.
+          Probˇh  vytv ýenˇ adres ýe cmTC_513d9.dir\\Debug\\cmTC_513d9.tlog\\.
+        InitializeBuildStatus:
+          Probˇh  vytv ýenˇ souboru cmTC_513d9.dir\\Debug\\cmTC_513d9.tlog\\unsuccessfulbuild v d…sledku zad nˇ AlwaysCreate.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_513d9.dir\\Debug\\cmTC_513d9.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_513d9.dir\\Debug\\\\" /Fd"cmTC_513d9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          Optimalizujˇcˇ kompil tor C/C++ spoleźnosti Microsoft (R) verze 19.38.33135 pro procesory x64
+          Copyright (C) Microsoft Corporation. Vçechna pr va vyhrazena.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_513d9.dir\\Debug\\\\" /Fd"cmTC_513d9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-04uxy6\\Debug\\cmTC_513d9.exe" /INCREMENTAL /ILK:"cmTC_513d9.dir\\Debug\\cmTC_513d9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-04uxy6/Debug/cmTC_513d9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-04uxy6/Debug/cmTC_513d9.lib" /MACHINE:X64  /machine:x64 cmTC_513d9.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_513d9.vcxproj -> C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-04uxy6\\Debug\\cmTC_513d9.exe
+        FinalizeBuildStatus:
+          Probˇh  odstraĺov nˇ souboru cmTC_513d9.dir\\Debug\\cmTC_513d9.tlog\\unsuccessfulbuild.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_513d9.dir\\Debug\\cmTC_513d9.tlog\\cmTC_513d9.lastbuildstate.
+        Sestavenˇ projektu C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-04uxy6\\cmTC_513d9.vcxproj (s věchozˇmi cˇli) bylo dokonźeno.
+        
+        Vytv ýenˇ sestavenˇ bylo ŁspŘçnŘ dokonźeno.
+            0 upozornŘnˇ
+            Poźet chyb: 0
+        
+        Uplynulě źas 00:00:01.30
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.38.33135.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:830 (check_include_file)"
+    checks:
+      - "Looking for immintrin.h"
+    directories:
+      source: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-75kyba"
+      binary: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-75kyba"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/skolo/izg/izg5/izg5/SDL/cmake"
+    buildResult:
+      variable: "HAVE_IMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-75kyba'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_96599.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.8.5+b5265ef37 pro .NET Framework
+        Vytv ýenˇ sestavenˇ bylo zah jeno 17.04.2024 9:28:13.
+        
+        Projekt C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-75kyba\\cmTC_96599.vcxproj v uzlu 1 (věchozˇ cˇle).
+        PrepareForBuild:
+          Probˇh  vytv ýenˇ adres ýe cmTC_96599.dir\\Debug\\.
+          Strukturovaně věstup je povoleně. Form tov nˇ diagnostiky kompil toru bude odr §et hierarchii chyb. Dalçˇ podrobnosti najdete na https://aka.ms/cpp/structured-output.
+          Probˇh  vytv ýenˇ adres ýe C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-75kyba\\Debug\\.
+          Probˇh  vytv ýenˇ adres ýe cmTC_96599.dir\\Debug\\cmTC_96599.tlog\\.
+        InitializeBuildStatus:
+          Probˇh  vytv ýenˇ souboru cmTC_96599.dir\\Debug\\cmTC_96599.tlog\\unsuccessfulbuild v d…sledku zad nˇ AlwaysCreate.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_96599.dir\\Debug\\cmTC_96599.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_96599.dir\\Debug\\\\" /Fd"cmTC_96599.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-75kyba\\CheckIncludeFile.c"
+          Optimalizujˇcˇ kompil tor C/C++ spoleźnosti Microsoft (R) verze 19.38.33135 pro procesory x64
+          Copyright (C) Microsoft Corporation. Vçechna pr va vyhrazena.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_96599.dir\\Debug\\\\" /Fd"cmTC_96599.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-75kyba\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-75kyba\\Debug\\cmTC_96599.exe" /INCREMENTAL /ILK:"cmTC_96599.dir\\Debug\\cmTC_96599.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-75kyba/Debug/cmTC_96599.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-75kyba/Debug/cmTC_96599.lib" /MACHINE:X64  /machine:x64 cmTC_96599.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_96599.vcxproj -> C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-75kyba\\Debug\\cmTC_96599.exe
+        FinalizeBuildStatus:
+          Probˇh  odstraĺov nˇ souboru cmTC_96599.dir\\Debug\\cmTC_96599.tlog\\unsuccessfulbuild.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_96599.dir\\Debug\\cmTC_96599.tlog\\cmTC_96599.lastbuildstate.
+        Sestavenˇ projektu C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-75kyba\\cmTC_96599.vcxproj (s věchozˇmi cˇli) bylo dokonźeno.
+        
+        Vytv ýenˇ sestavenˇ bylo ŁspŘçnŘ dokonźeno.
+            0 upozornŘnˇ
+            Poźet chyb: 0
+        
+        Uplynulě źas 00:00:01.35
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1516 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_WIN32_CC"
+    directories:
+      source: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-ggm5v5"
+      binary: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-ggm5v5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/skolo/izg/izg5/izg5/SDL/cmake"
+    buildResult:
+      variable: "HAVE_WIN32_CC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-ggm5v5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_af659.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.8.5+b5265ef37 pro .NET Framework
+        Vytv ýenˇ sestavenˇ bylo zah jeno 17.04.2024 9:28:15.
+        
+        Projekt C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ggm5v5\\cmTC_af659.vcxproj v uzlu 1 (věchozˇ cˇle).
+        PrepareForBuild:
+          Probˇh  vytv ýenˇ adres ýe cmTC_af659.dir\\Debug\\.
+          Strukturovaně věstup je povoleně. Form tov nˇ diagnostiky kompil toru bude odr §et hierarchii chyb. Dalçˇ podrobnosti najdete na https://aka.ms/cpp/structured-output.
+          Probˇh  vytv ýenˇ adres ýe C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ggm5v5\\Debug\\.
+          Probˇh  vytv ýenˇ adres ýe cmTC_af659.dir\\Debug\\cmTC_af659.tlog\\.
+        InitializeBuildStatus:
+          Probˇh  vytv ýenˇ souboru cmTC_af659.dir\\Debug\\cmTC_af659.tlog\\unsuccessfulbuild v d…sledku zad nˇ AlwaysCreate.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_af659.dir\\Debug\\cmTC_af659.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_WIN32_CC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af659.dir\\Debug\\\\" /Fd"cmTC_af659.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ggm5v5\\src.c"
+          Optimalizujˇcˇ kompil tor C/C++ spoleźnosti Microsoft (R) verze 19.38.33135 pro procesory x64
+          Copyright (C) Microsoft Corporation. Vçechna pr va vyhrazena.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_WIN32_CC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af659.dir\\Debug\\\\" /Fd"cmTC_af659.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ggm5v5\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ggm5v5\\Debug\\cmTC_af659.exe" /INCREMENTAL /ILK:"cmTC_af659.dir\\Debug\\cmTC_af659.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-ggm5v5/Debug/cmTC_af659.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-ggm5v5/Debug/cmTC_af659.lib" /MACHINE:X64  /machine:x64 cmTC_af659.dir\\Debug\\src.obj
+          cmTC_af659.vcxproj -> C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ggm5v5\\Debug\\cmTC_af659.exe
+        FinalizeBuildStatus:
+          Probˇh  odstraĺov nˇ souboru cmTC_af659.dir\\Debug\\cmTC_af659.tlog\\unsuccessfulbuild.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_af659.dir\\Debug\\cmTC_af659.tlog\\cmTC_af659.lastbuildstate.
+        Sestavenˇ projektu C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ggm5v5\\cmTC_af659.vcxproj (s věchozˇmi cˇli) bylo dokonźeno.
+        
+        Vytv ýenˇ sestavenˇ bylo ŁspŘçnŘ dokonźeno.
+            0 upozornŘnˇ
+            Poźet chyb: 0
+        
+        Uplynulě źas 00:00:01.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1558 (check_include_file)"
+    checks:
+      - "Looking for d3d9.h"
+    directories:
+      source: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-1w7vfd"
+      binary: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-1w7vfd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/skolo/izg/izg5/izg5/SDL/cmake"
+    buildResult:
+      variable: "HAVE_D3D_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-1w7vfd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ebd91.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.8.5+b5265ef37 pro .NET Framework
+        Vytv ýenˇ sestavenˇ bylo zah jeno 17.04.2024 9:28:17.
+        
+        Projekt C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1w7vfd\\cmTC_ebd91.vcxproj v uzlu 1 (věchozˇ cˇle).
+        PrepareForBuild:
+          Probˇh  vytv ýenˇ adres ýe cmTC_ebd91.dir\\Debug\\.
+          Strukturovaně věstup je povoleně. Form tov nˇ diagnostiky kompil toru bude odr §et hierarchii chyb. Dalçˇ podrobnosti najdete na https://aka.ms/cpp/structured-output.
+          Probˇh  vytv ýenˇ adres ýe C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1w7vfd\\Debug\\.
+          Probˇh  vytv ýenˇ adres ýe cmTC_ebd91.dir\\Debug\\cmTC_ebd91.tlog\\.
+        InitializeBuildStatus:
+          Probˇh  vytv ýenˇ souboru cmTC_ebd91.dir\\Debug\\cmTC_ebd91.tlog\\unsuccessfulbuild v d…sledku zad nˇ AlwaysCreate.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_ebd91.dir\\Debug\\cmTC_ebd91.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ebd91.dir\\Debug\\\\" /Fd"cmTC_ebd91.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1w7vfd\\CheckIncludeFile.c"
+          Optimalizujˇcˇ kompil tor C/C++ spoleźnosti Microsoft (R) verze 19.38.33135 pro procesory x64
+          Copyright (C) Microsoft Corporation. Vçechna pr va vyhrazena.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ebd91.dir\\Debug\\\\" /Fd"cmTC_ebd91.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1w7vfd\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1w7vfd\\Debug\\cmTC_ebd91.exe" /INCREMENTAL /ILK:"cmTC_ebd91.dir\\Debug\\cmTC_ebd91.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-1w7vfd/Debug/cmTC_ebd91.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-1w7vfd/Debug/cmTC_ebd91.lib" /MACHINE:X64  /machine:x64 cmTC_ebd91.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_ebd91.vcxproj -> C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1w7vfd\\Debug\\cmTC_ebd91.exe
+        FinalizeBuildStatus:
+          Probˇh  odstraĺov nˇ souboru cmTC_ebd91.dir\\Debug\\cmTC_ebd91.tlog\\unsuccessfulbuild.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_ebd91.dir\\Debug\\cmTC_ebd91.tlog\\cmTC_ebd91.lastbuildstate.
+        Sestavenˇ projektu C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1w7vfd\\cmTC_ebd91.vcxproj (s věchozˇmi cˇli) bylo dokonźeno.
+        
+        Vytv ýenˇ sestavenˇ bylo ŁspŘçnŘ dokonźeno.
+            0 upozornŘnˇ
+            Poźet chyb: 0
+        
+        Uplynulě źas 00:00:01.49
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1559 (check_include_file)"
+    checks:
+      - "Looking for d3d11_1.h"
+    directories:
+      source: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-g576na"
+      binary: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-g576na"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/skolo/izg/izg5/izg5/SDL/cmake"
+    buildResult:
+      variable: "HAVE_D3D11_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-g576na'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_68f53.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.8.5+b5265ef37 pro .NET Framework
+        Vytv ýenˇ sestavenˇ bylo zah jeno 17.04.2024 9:28:19.
+        
+        Projekt C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g576na\\cmTC_68f53.vcxproj v uzlu 1 (věchozˇ cˇle).
+        PrepareForBuild:
+          Probˇh  vytv ýenˇ adres ýe cmTC_68f53.dir\\Debug\\.
+          Strukturovaně věstup je povoleně. Form tov nˇ diagnostiky kompil toru bude odr §et hierarchii chyb. Dalçˇ podrobnosti najdete na https://aka.ms/cpp/structured-output.
+          Probˇh  vytv ýenˇ adres ýe C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g576na\\Debug\\.
+          Probˇh  vytv ýenˇ adres ýe cmTC_68f53.dir\\Debug\\cmTC_68f53.tlog\\.
+        InitializeBuildStatus:
+          Probˇh  vytv ýenˇ souboru cmTC_68f53.dir\\Debug\\cmTC_68f53.tlog\\unsuccessfulbuild v d…sledku zad nˇ AlwaysCreate.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_68f53.dir\\Debug\\cmTC_68f53.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_68f53.dir\\Debug\\\\" /Fd"cmTC_68f53.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g576na\\CheckIncludeFile.c"
+          Optimalizujˇcˇ kompil tor C/C++ spoleźnosti Microsoft (R) verze 19.38.33135 pro procesory x64
+          Copyright (C) Microsoft Corporation. Vçechna pr va vyhrazena.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_68f53.dir\\Debug\\\\" /Fd"cmTC_68f53.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g576na\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g576na\\Debug\\cmTC_68f53.exe" /INCREMENTAL /ILK:"cmTC_68f53.dir\\Debug\\cmTC_68f53.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-g576na/Debug/cmTC_68f53.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-g576na/Debug/cmTC_68f53.lib" /MACHINE:X64  /machine:x64 cmTC_68f53.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_68f53.vcxproj -> C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g576na\\Debug\\cmTC_68f53.exe
+        FinalizeBuildStatus:
+          Probˇh  odstraĺov nˇ souboru cmTC_68f53.dir\\Debug\\cmTC_68f53.tlog\\unsuccessfulbuild.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_68f53.dir\\Debug\\cmTC_68f53.tlog\\cmTC_68f53.lastbuildstate.
+        Sestavenˇ projektu C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g576na\\cmTC_68f53.vcxproj (s věchozˇmi cˇli) bylo dokonźeno.
+        
+        Vytv ýenˇ sestavenˇ bylo ŁspŘçnŘ dokonźeno.
+            0 upozornŘnˇ
+            Poźet chyb: 0
+        
+        Uplynulě źas 00:00:01.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1560 (check_include_file)"
+    checks:
+      - "Looking for ddraw.h"
+    directories:
+      source: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-1wcqjs"
+      binary: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-1wcqjs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/skolo/izg/izg5/izg5/SDL/cmake"
+    buildResult:
+      variable: "HAVE_DDRAW_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-1wcqjs'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ade86.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.8.5+b5265ef37 pro .NET Framework
+        Vytv ýenˇ sestavenˇ bylo zah jeno 17.04.2024 9:28:21.
+        
+        Projekt C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1wcqjs\\cmTC_ade86.vcxproj v uzlu 1 (věchozˇ cˇle).
+        PrepareForBuild:
+          Probˇh  vytv ýenˇ adres ýe cmTC_ade86.dir\\Debug\\.
+          Strukturovaně věstup je povoleně. Form tov nˇ diagnostiky kompil toru bude odr §et hierarchii chyb. Dalçˇ podrobnosti najdete na https://aka.ms/cpp/structured-output.
+          Probˇh  vytv ýenˇ adres ýe C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1wcqjs\\Debug\\.
+          Probˇh  vytv ýenˇ adres ýe cmTC_ade86.dir\\Debug\\cmTC_ade86.tlog\\.
+        InitializeBuildStatus:
+          Probˇh  vytv ýenˇ souboru cmTC_ade86.dir\\Debug\\cmTC_ade86.tlog\\unsuccessfulbuild v d…sledku zad nˇ AlwaysCreate.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_ade86.dir\\Debug\\cmTC_ade86.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ade86.dir\\Debug\\\\" /Fd"cmTC_ade86.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1wcqjs\\CheckIncludeFile.c"
+          Optimalizujˇcˇ kompil tor C/C++ spoleźnosti Microsoft (R) verze 19.38.33135 pro procesory x64
+          Copyright (C) Microsoft Corporation. Vçechna pr va vyhrazena.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ade86.dir\\Debug\\\\" /Fd"cmTC_ade86.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1wcqjs\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1wcqjs\\Debug\\cmTC_ade86.exe" /INCREMENTAL /ILK:"cmTC_ade86.dir\\Debug\\cmTC_ade86.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-1wcqjs/Debug/cmTC_ade86.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-1wcqjs/Debug/cmTC_ade86.lib" /MACHINE:X64  /machine:x64 cmTC_ade86.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_ade86.vcxproj -> C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1wcqjs\\Debug\\cmTC_ade86.exe
+        FinalizeBuildStatus:
+          Probˇh  odstraĺov nˇ souboru cmTC_ade86.dir\\Debug\\cmTC_ade86.tlog\\unsuccessfulbuild.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_ade86.dir\\Debug\\cmTC_ade86.tlog\\cmTC_ade86.lastbuildstate.
+        Sestavenˇ projektu C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1wcqjs\\cmTC_ade86.vcxproj (s věchozˇmi cˇli) bylo dokonźeno.
+        
+        Vytv ýenˇ sestavenˇ bylo ŁspŘçnŘ dokonźeno.
+            0 upozornŘnˇ
+            Poźet chyb: 0
+        
+        Uplynulě źas 00:00:01.49
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1561 (check_include_file)"
+    checks:
+      - "Looking for dsound.h"
+    directories:
+      source: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-ljztcx"
+      binary: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-ljztcx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/skolo/izg/izg5/izg5/SDL/cmake"
+    buildResult:
+      variable: "HAVE_DSOUND_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-ljztcx'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_822f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.8.5+b5265ef37 pro .NET Framework
+        Vytv ýenˇ sestavenˇ bylo zah jeno 17.04.2024 9:28:23.
+        
+        Projekt C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ljztcx\\cmTC_822f5.vcxproj v uzlu 1 (věchozˇ cˇle).
+        PrepareForBuild:
+          Probˇh  vytv ýenˇ adres ýe cmTC_822f5.dir\\Debug\\.
+          Strukturovaně věstup je povoleně. Form tov nˇ diagnostiky kompil toru bude odr §et hierarchii chyb. Dalçˇ podrobnosti najdete na https://aka.ms/cpp/structured-output.
+          Probˇh  vytv ýenˇ adres ýe C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ljztcx\\Debug\\.
+          Probˇh  vytv ýenˇ adres ýe cmTC_822f5.dir\\Debug\\cmTC_822f5.tlog\\.
+        InitializeBuildStatus:
+          Probˇh  vytv ýenˇ souboru cmTC_822f5.dir\\Debug\\cmTC_822f5.tlog\\unsuccessfulbuild v d…sledku zad nˇ AlwaysCreate.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_822f5.dir\\Debug\\cmTC_822f5.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_822f5.dir\\Debug\\\\" /Fd"cmTC_822f5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ljztcx\\CheckIncludeFile.c"
+          Optimalizujˇcˇ kompil tor C/C++ spoleźnosti Microsoft (R) verze 19.38.33135 pro procesory x64
+          Copyright (C) Microsoft Corporation. Vçechna pr va vyhrazena.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_822f5.dir\\Debug\\\\" /Fd"cmTC_822f5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ljztcx\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ljztcx\\Debug\\cmTC_822f5.exe" /INCREMENTAL /ILK:"cmTC_822f5.dir\\Debug\\cmTC_822f5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-ljztcx/Debug/cmTC_822f5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-ljztcx/Debug/cmTC_822f5.lib" /MACHINE:X64  /machine:x64 cmTC_822f5.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_822f5.vcxproj -> C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ljztcx\\Debug\\cmTC_822f5.exe
+        FinalizeBuildStatus:
+          Probˇh  odstraĺov nˇ souboru cmTC_822f5.dir\\Debug\\cmTC_822f5.tlog\\unsuccessfulbuild.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_822f5.dir\\Debug\\cmTC_822f5.tlog\\cmTC_822f5.lastbuildstate.
+        Sestavenˇ projektu C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ljztcx\\cmTC_822f5.vcxproj (s věchozˇmi cˇli) bylo dokonźeno.
+        
+        Vytv ýenˇ sestavenˇ bylo ŁspŘçnŘ dokonźeno.
+            0 upozornŘnˇ
+            Poźet chyb: 0
+        
+        Uplynulě źas 00:00:01.48
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1562 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-extlms"
+      binary: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-extlms"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/skolo/izg/izg5/izg5/SDL/cmake"
+    buildResult:
+      variable: "HAVE_DINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-extlms'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_17d40.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.8.5+b5265ef37 pro .NET Framework
+        Vytv ýenˇ sestavenˇ bylo zah jeno 17.04.2024 9:28:25.
+        
+        Projekt C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-extlms\\cmTC_17d40.vcxproj v uzlu 1 (věchozˇ cˇle).
+        PrepareForBuild:
+          Probˇh  vytv ýenˇ adres ýe cmTC_17d40.dir\\Debug\\.
+          Strukturovaně věstup je povoleně. Form tov nˇ diagnostiky kompil toru bude odr §et hierarchii chyb. Dalçˇ podrobnosti najdete na https://aka.ms/cpp/structured-output.
+          Probˇh  vytv ýenˇ adres ýe C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-extlms\\Debug\\.
+          Probˇh  vytv ýenˇ adres ýe cmTC_17d40.dir\\Debug\\cmTC_17d40.tlog\\.
+        InitializeBuildStatus:
+          Probˇh  vytv ýenˇ souboru cmTC_17d40.dir\\Debug\\cmTC_17d40.tlog\\unsuccessfulbuild v d…sledku zad nˇ AlwaysCreate.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_17d40.dir\\Debug\\cmTC_17d40.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17d40.dir\\Debug\\\\" /Fd"cmTC_17d40.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-extlms\\CheckIncludeFile.c"
+          Optimalizujˇcˇ kompil tor C/C++ spoleźnosti Microsoft (R) verze 19.38.33135 pro procesory x64
+          Copyright (C) Microsoft Corporation. Vçechna pr va vyhrazena.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17d40.dir\\Debug\\\\" /Fd"cmTC_17d40.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-extlms\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+          C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-extlms\\Debug\\cmTC_17d40.exe" /INCREMENTAL /ILK:"cmTC_17d40.dir\\Debug\\cmTC_17d40.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-extlms/Debug/cmTC_17d40.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-extlms/Debug/cmTC_17d40.lib" /MACHINE:X64  /machine:x64 cmTC_17d40.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_17d40.vcxproj -> C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-extlms\\Debug\\cmTC_17d40.exe
+        FinalizeBuildStatus:
+          Probˇh  odstraĺov nˇ souboru cmTC_17d40.dir\\Debug\\cmTC_17d40.tlog\\unsuccessfulbuild.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_17d40.dir\\Debug\\cmTC_17d40.tlog\\cmTC_17d40.lastbuildstate.
+        Sestavenˇ projektu C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-extlms\\cmTC_17d40.vcxproj (s věchozˇmi cˇli) bylo dokonźeno.
+        
+        Vytv ýenˇ sestavenˇ bylo ŁspŘçnŘ dokonźeno.
+            0 upozornŘnˇ
+            Poźet chyb: 0
+        
+        Uplynulě źas 00:00:01.48
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1566 (check_include_file)"
+    checks:
+      - "Looking for dxgi.h"
+    directories:
+      source: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-a8nk6t"
+      binary: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-a8nk6t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/skolo/izg/izg5/izg5/SDL/cmake"
+    buildResult:
+      variable: "HAVE_DXGI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-a8nk6t'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1d45b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.8.5+b5265ef37 pro .NET Framework
+        Vytv ýenˇ sestavenˇ bylo zah jeno 17.04.2024 9:28:27.
+        
+        Projekt C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a8nk6t\\cmTC_1d45b.vcxproj v uzlu 1 (věchozˇ cˇle).
+        PrepareForBuild:
+          Probˇh  vytv ýenˇ adres ýe cmTC_1d45b.dir\\Debug\\.
+          Strukturovaně věstup je povoleně. Form tov nˇ diagnostiky kompil toru bude odr §et hierarchii chyb. Dalçˇ podrobnosti najdete na https://aka.ms/cpp/structured-output.
+          Probˇh  vytv ýenˇ adres ýe C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a8nk6t\\Debug\\.
+          Probˇh  vytv ýenˇ adres ýe cmTC_1d45b.dir\\Debug\\cmTC_1d45b.tlog\\.
+        InitializeBuildStatus:
+          Probˇh  vytv ýenˇ souboru cmTC_1d45b.dir\\Debug\\cmTC_1d45b.tlog\\unsuccessfulbuild v d…sledku zad nˇ AlwaysCreate.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_1d45b.dir\\Debug\\cmTC_1d45b.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1d45b.dir\\Debug\\\\" /Fd"cmTC_1d45b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a8nk6t\\CheckIncludeFile.c"
+          Optimalizujˇcˇ kompil tor C/C++ spoleźnosti Microsoft (R) verze 19.38.33135 pro procesory x64
+          Copyright (C) Microsoft Corporation. Vçechna pr va vyhrazena.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1d45b.dir\\Debug\\\\" /Fd"cmTC_1d45b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a8nk6t\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a8nk6t\\Debug\\cmTC_1d45b.exe" /INCREMENTAL /ILK:"cmTC_1d45b.dir\\Debug\\cmTC_1d45b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-a8nk6t/Debug/cmTC_1d45b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-a8nk6t/Debug/cmTC_1d45b.lib" /MACHINE:X64  /machine:x64 cmTC_1d45b.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_1d45b.vcxproj -> C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a8nk6t\\Debug\\cmTC_1d45b.exe
+        FinalizeBuildStatus:
+          Probˇh  odstraĺov nˇ souboru cmTC_1d45b.dir\\Debug\\cmTC_1d45b.tlog\\unsuccessfulbuild.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_1d45b.dir\\Debug\\cmTC_1d45b.tlog\\cmTC_1d45b.lastbuildstate.
+        Sestavenˇ projektu C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a8nk6t\\cmTC_1d45b.vcxproj (s věchozˇmi cˇli) bylo dokonźeno.
+        
+        Vytv ýenˇ sestavenˇ bylo ŁspŘçnŘ dokonźeno.
+            0 upozornŘnˇ
+            Poźet chyb: 0
+        
+        Uplynulě źas 00:00:01.49
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1580 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_H"
+    directories:
+      source: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-9s797q"
+      binary: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-9s797q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/skolo/izg/izg5/izg5/SDL/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-9s797q'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9bc67.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.8.5+b5265ef37 pro .NET Framework
+        Vytv ýenˇ sestavenˇ bylo zah jeno 17.04.2024 9:28:29.
+        
+        Projekt C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9s797q\\cmTC_9bc67.vcxproj v uzlu 1 (věchozˇ cˇle).
+        PrepareForBuild:
+          Probˇh  vytv ýenˇ adres ýe cmTC_9bc67.dir\\Debug\\.
+          Strukturovaně věstup je povoleně. Form tov nˇ diagnostiky kompil toru bude odr §et hierarchii chyb. Dalçˇ podrobnosti najdete na https://aka.ms/cpp/structured-output.
+          Probˇh  vytv ýenˇ adres ýe C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9s797q\\Debug\\.
+          Probˇh  vytv ýenˇ adres ýe cmTC_9bc67.dir\\Debug\\cmTC_9bc67.tlog\\.
+        InitializeBuildStatus:
+          Probˇh  vytv ýenˇ souboru cmTC_9bc67.dir\\Debug\\cmTC_9bc67.tlog\\unsuccessfulbuild v d…sledku zad nˇ AlwaysCreate.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_9bc67.dir\\Debug\\cmTC_9bc67.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_XINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9bc67.dir\\Debug\\\\" /Fd"cmTC_9bc67.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9s797q\\src.c"
+          Optimalizujˇcˇ kompil tor C/C++ spoleźnosti Microsoft (R) verze 19.38.33135 pro procesory x64
+          Copyright (C) Microsoft Corporation. Vçechna pr va vyhrazena.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_XINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9bc67.dir\\Debug\\\\" /Fd"cmTC_9bc67.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9s797q\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9s797q\\Debug\\cmTC_9bc67.exe" /INCREMENTAL /ILK:"cmTC_9bc67.dir\\Debug\\cmTC_9bc67.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-9s797q/Debug/cmTC_9bc67.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-9s797q/Debug/cmTC_9bc67.lib" /MACHINE:X64  /machine:x64 cmTC_9bc67.dir\\Debug\\src.obj
+          cmTC_9bc67.vcxproj -> C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9s797q\\Debug\\cmTC_9bc67.exe
+        FinalizeBuildStatus:
+          Probˇh  odstraĺov nˇ souboru cmTC_9bc67.dir\\Debug\\cmTC_9bc67.tlog\\unsuccessfulbuild.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_9bc67.dir\\Debug\\cmTC_9bc67.tlog\\cmTC_9bc67.lastbuildstate.
+        Sestavenˇ projektu C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9s797q\\cmTC_9bc67.vcxproj (s věchozˇmi cˇli) bylo dokonźeno.
+        
+        Vytv ýenˇ sestavenˇ bylo ŁspŘçnŘ dokonźeno.
+            0 upozornŘnˇ
+            Poźet chyb: 0
+        
+        Uplynulě źas 00:00:01.49
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1584 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_GAMEPAD_EX"
+    directories:
+      source: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-hgw6cs"
+      binary: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-hgw6cs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/skolo/izg/izg5/izg5/SDL/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT_GAMEPAD_EX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-hgw6cs'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8300c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.8.5+b5265ef37 pro .NET Framework
+        Vytv ýenˇ sestavenˇ bylo zah jeno 17.04.2024 9:28:31.
+        
+        Projekt C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hgw6cs\\cmTC_8300c.vcxproj v uzlu 1 (věchozˇ cˇle).
+        PrepareForBuild:
+          Probˇh  vytv ýenˇ adres ýe cmTC_8300c.dir\\Debug\\.
+          Strukturovaně věstup je povoleně. Form tov nˇ diagnostiky kompil toru bude odr §et hierarchii chyb. Dalçˇ podrobnosti najdete na https://aka.ms/cpp/structured-output.
+          Probˇh  vytv ýenˇ adres ýe C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hgw6cs\\Debug\\.
+          Probˇh  vytv ýenˇ adres ýe cmTC_8300c.dir\\Debug\\cmTC_8300c.tlog\\.
+        InitializeBuildStatus:
+          Probˇh  vytv ýenˇ souboru cmTC_8300c.dir\\Debug\\cmTC_8300c.tlog\\unsuccessfulbuild v d…sledku zad nˇ AlwaysCreate.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_8300c.dir\\Debug\\cmTC_8300c.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8300c.dir\\Debug\\\\" /Fd"cmTC_8300c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hgw6cs\\src.c"
+          Optimalizujˇcˇ kompil tor C/C++ spoleźnosti Microsoft (R) verze 19.38.33135 pro procesory x64
+          Copyright (C) Microsoft Corporation. Vçechna pr va vyhrazena.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8300c.dir\\Debug\\\\" /Fd"cmTC_8300c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hgw6cs\\src.c"
+          src.c
+        C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hgw6cs\\src.c(4,25): error C2061: Chyba syntaxe: identifik tor x1 [C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hgw6cs\\cmTC_8300c.vcxproj]
+        C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hgw6cs\\src.c(4,25): error C2059: chyba syntaxe: ; [C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hgw6cs\\cmTC_8300c.vcxproj]
+        Sestavenˇ projektu C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hgw6cs\\cmTC_8300c.vcxproj (s věchozˇmi cˇli) bylo dokonźeno: CHYBA.
+        
+        Sestavenˇ SE NEZDAüILO.
+        
+        "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hgw6cs\\cmTC_8300c.vcxproj" (věchozˇ cˇl) (1) ->
+        (cˇl ClCompile) -> 
+          C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hgw6cs\\src.c(4,25): error C2061: Chyba syntaxe: identifik tor x1 [C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hgw6cs\\cmTC_8300c.vcxproj]
+          C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hgw6cs\\src.c(4,25): error C2059: chyba syntaxe: ; [C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hgw6cs\\cmTC_8300c.vcxproj]
+        
+            0 upozornŘnˇ
+            Poźet chyb: 2
+        
+        Uplynulě źas 00:00:01.45
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1589 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_STATE_EX"
+    directories:
+      source: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-z1r0o7"
+      binary: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-z1r0o7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/skolo/izg/izg5/izg5/SDL/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT_STATE_EX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-z1r0o7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bba1c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.8.5+b5265ef37 pro .NET Framework
+        Vytv ýenˇ sestavenˇ bylo zah jeno 17.04.2024 9:28:33.
+        
+        Projekt C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1r0o7\\cmTC_bba1c.vcxproj v uzlu 1 (věchozˇ cˇle).
+        PrepareForBuild:
+          Probˇh  vytv ýenˇ adres ýe cmTC_bba1c.dir\\Debug\\.
+          Strukturovaně věstup je povoleně. Form tov nˇ diagnostiky kompil toru bude odr §et hierarchii chyb. Dalçˇ podrobnosti najdete na https://aka.ms/cpp/structured-output.
+          Probˇh  vytv ýenˇ adres ýe C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1r0o7\\Debug\\.
+          Probˇh  vytv ýenˇ adres ýe cmTC_bba1c.dir\\Debug\\cmTC_bba1c.tlog\\.
+        InitializeBuildStatus:
+          Probˇh  vytv ýenˇ souboru cmTC_bba1c.dir\\Debug\\cmTC_bba1c.tlog\\unsuccessfulbuild v d…sledku zad nˇ AlwaysCreate.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_bba1c.dir\\Debug\\cmTC_bba1c.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bba1c.dir\\Debug\\\\" /Fd"cmTC_bba1c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1r0o7\\src.c"
+          Optimalizujˇcˇ kompil tor C/C++ spoleźnosti Microsoft (R) verze 19.38.33135 pro procesory x64
+          Copyright (C) Microsoft Corporation. Vçechna pr va vyhrazena.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bba1c.dir\\Debug\\\\" /Fd"cmTC_bba1c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1r0o7\\src.c"
+          src.c
+        C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1r0o7\\src.c(4,23): error C2061: Chyba syntaxe: identifik tor s1 [C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1r0o7\\cmTC_bba1c.vcxproj]
+        C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1r0o7\\src.c(4,23): error C2059: chyba syntaxe: ; [C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1r0o7\\cmTC_bba1c.vcxproj]
+        Sestavenˇ projektu C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1r0o7\\cmTC_bba1c.vcxproj (s věchozˇmi cˇli) bylo dokonźeno: CHYBA.
+        
+        Sestavenˇ SE NEZDAüILO.
+        
+        "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1r0o7\\cmTC_bba1c.vcxproj" (věchozˇ cˇl) (1) ->
+        (cˇl ClCompile) -> 
+          C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1r0o7\\src.c(4,23): error C2061: Chyba syntaxe: identifik tor s1 [C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1r0o7\\cmTC_bba1c.vcxproj]
+          C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1r0o7\\src.c(4,23): error C2059: chyba syntaxe: ; [C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1r0o7\\cmTC_bba1c.vcxproj]
+        
+            0 upozornŘnˇ
+            Poźet chyb: 2
+        
+        Uplynulě źas 00:00:01.44
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1594 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_WINDOWS_GAMING_INPUT_H"
+    directories:
+      source: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-o94xak"
+      binary: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-o94xak"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/skolo/izg/izg5/izg5/SDL/cmake"
+    buildResult:
+      variable: "HAVE_WINDOWS_GAMING_INPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-o94xak'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5d15f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.8.5+b5265ef37 pro .NET Framework
+        Vytv ýenˇ sestavenˇ bylo zah jeno 17.04.2024 9:28:35.
+        
+        Projekt C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o94xak\\cmTC_5d15f.vcxproj v uzlu 1 (věchozˇ cˇle).
+        PrepareForBuild:
+          Probˇh  vytv ýenˇ adres ýe cmTC_5d15f.dir\\Debug\\.
+          Strukturovaně věstup je povoleně. Form tov nˇ diagnostiky kompil toru bude odr §et hierarchii chyb. Dalçˇ podrobnosti najdete na https://aka.ms/cpp/structured-output.
+          Probˇh  vytv ýenˇ adres ýe C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o94xak\\Debug\\.
+          Probˇh  vytv ýenˇ adres ýe cmTC_5d15f.dir\\Debug\\cmTC_5d15f.tlog\\.
+        InitializeBuildStatus:
+          Probˇh  vytv ýenˇ souboru cmTC_5d15f.dir\\Debug\\cmTC_5d15f.tlog\\unsuccessfulbuild v d…sledku zad nˇ AlwaysCreate.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_5d15f.dir\\Debug\\cmTC_5d15f.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_WINDOWS_GAMING_INPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d15f.dir\\Debug\\\\" /Fd"cmTC_5d15f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o94xak\\src.c"
+          Optimalizujˇcˇ kompil tor C/C++ spoleźnosti Microsoft (R) verze 19.38.33135 pro procesory x64
+          Copyright (C) Microsoft Corporation. Vçechna pr va vyhrazena.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_WINDOWS_GAMING_INPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d15f.dir\\Debug\\\\" /Fd"cmTC_5d15f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o94xak\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o94xak\\Debug\\cmTC_5d15f.exe" /INCREMENTAL /ILK:"cmTC_5d15f.dir\\Debug\\cmTC_5d15f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-o94xak/Debug/cmTC_5d15f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-o94xak/Debug/cmTC_5d15f.lib" /MACHINE:X64  /machine:x64 cmTC_5d15f.dir\\Debug\\src.obj
+          cmTC_5d15f.vcxproj -> C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o94xak\\Debug\\cmTC_5d15f.exe
+        FinalizeBuildStatus:
+          Probˇh  odstraĺov nˇ souboru cmTC_5d15f.dir\\Debug\\cmTC_5d15f.tlog\\unsuccessfulbuild.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_5d15f.dir\\Debug\\cmTC_5d15f.tlog\\cmTC_5d15f.lastbuildstate.
+        Sestavenˇ projektu C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o94xak\\cmTC_5d15f.vcxproj (s věchozˇmi cˇli) bylo dokonźeno.
+        
+        Vytv ýenˇ sestavenˇ bylo ŁspŘçnŘ dokonźeno.
+            0 upozornŘnˇ
+            Poźet chyb: 0
+        
+        Uplynulě źas 00:00:02.17
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1602 (check_include_file)"
+    checks:
+      - "Looking for tpcshrd.h"
+    directories:
+      source: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-yaeo8d"
+      binary: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-yaeo8d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/skolo/izg/izg5/izg5/SDL/cmake"
+    buildResult:
+      variable: "HAVE_TPCSHRD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-yaeo8d'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_54bd7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.8.5+b5265ef37 pro .NET Framework
+        Vytv ýenˇ sestavenˇ bylo zah jeno 17.04.2024 9:28:37.
+        
+        Projekt C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yaeo8d\\cmTC_54bd7.vcxproj v uzlu 1 (věchozˇ cˇle).
+        PrepareForBuild:
+          Probˇh  vytv ýenˇ adres ýe cmTC_54bd7.dir\\Debug\\.
+          Strukturovaně věstup je povoleně. Form tov nˇ diagnostiky kompil toru bude odr §et hierarchii chyb. Dalçˇ podrobnosti najdete na https://aka.ms/cpp/structured-output.
+          Probˇh  vytv ýenˇ adres ýe C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yaeo8d\\Debug\\.
+          Probˇh  vytv ýenˇ adres ýe cmTC_54bd7.dir\\Debug\\cmTC_54bd7.tlog\\.
+        InitializeBuildStatus:
+          Probˇh  vytv ýenˇ souboru cmTC_54bd7.dir\\Debug\\cmTC_54bd7.tlog\\unsuccessfulbuild v d…sledku zad nˇ AlwaysCreate.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_54bd7.dir\\Debug\\cmTC_54bd7.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_54bd7.dir\\Debug\\\\" /Fd"cmTC_54bd7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yaeo8d\\CheckIncludeFile.c"
+          Optimalizujˇcˇ kompil tor C/C++ spoleźnosti Microsoft (R) verze 19.38.33135 pro procesory x64
+          Copyright (C) Microsoft Corporation. Vçechna pr va vyhrazena.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_54bd7.dir\\Debug\\\\" /Fd"cmTC_54bd7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yaeo8d\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yaeo8d\\Debug\\cmTC_54bd7.exe" /INCREMENTAL /ILK:"cmTC_54bd7.dir\\Debug\\cmTC_54bd7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-yaeo8d/Debug/cmTC_54bd7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-yaeo8d/Debug/cmTC_54bd7.lib" /MACHINE:X64  /machine:x64 cmTC_54bd7.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_54bd7.vcxproj -> C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yaeo8d\\Debug\\cmTC_54bd7.exe
+        FinalizeBuildStatus:
+          Probˇh  odstraĺov nˇ souboru cmTC_54bd7.dir\\Debug\\cmTC_54bd7.tlog\\unsuccessfulbuild.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_54bd7.dir\\Debug\\cmTC_54bd7.tlog\\cmTC_54bd7.lastbuildstate.
+        Sestavenˇ projektu C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yaeo8d\\cmTC_54bd7.vcxproj (s věchozˇmi cˇli) bylo dokonźeno.
+        
+        Vytv ýenˇ sestavenˇ bylo ŁspŘçnŘ dokonźeno.
+            0 upozornŘnˇ
+            Poźet chyb: 0
+        
+        Uplynulě źas 00:00:01.47
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1603 (check_include_file)"
+    checks:
+      - "Looking for mmdeviceapi.h"
+    directories:
+      source: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-jxkdp2"
+      binary: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-jxkdp2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/skolo/izg/izg5/izg5/SDL/cmake"
+    buildResult:
+      variable: "HAVE_MMDEVICEAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-jxkdp2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_61069.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.8.5+b5265ef37 pro .NET Framework
+        Vytv ýenˇ sestavenˇ bylo zah jeno 17.04.2024 9:28:39.
+        
+        Projekt C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jxkdp2\\cmTC_61069.vcxproj v uzlu 1 (věchozˇ cˇle).
+        PrepareForBuild:
+          Probˇh  vytv ýenˇ adres ýe cmTC_61069.dir\\Debug\\.
+          Strukturovaně věstup je povoleně. Form tov nˇ diagnostiky kompil toru bude odr §et hierarchii chyb. Dalçˇ podrobnosti najdete na https://aka.ms/cpp/structured-output.
+          Probˇh  vytv ýenˇ adres ýe C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jxkdp2\\Debug\\.
+          Probˇh  vytv ýenˇ adres ýe cmTC_61069.dir\\Debug\\cmTC_61069.tlog\\.
+        InitializeBuildStatus:
+          Probˇh  vytv ýenˇ souboru cmTC_61069.dir\\Debug\\cmTC_61069.tlog\\unsuccessfulbuild v d…sledku zad nˇ AlwaysCreate.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_61069.dir\\Debug\\cmTC_61069.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61069.dir\\Debug\\\\" /Fd"cmTC_61069.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jxkdp2\\CheckIncludeFile.c"
+          Optimalizujˇcˇ kompil tor C/C++ spoleźnosti Microsoft (R) verze 19.38.33135 pro procesory x64
+          Copyright (C) Microsoft Corporation. Vçechna pr va vyhrazena.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61069.dir\\Debug\\\\" /Fd"cmTC_61069.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jxkdp2\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jxkdp2\\Debug\\cmTC_61069.exe" /INCREMENTAL /ILK:"cmTC_61069.dir\\Debug\\cmTC_61069.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-jxkdp2/Debug/cmTC_61069.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-jxkdp2/Debug/cmTC_61069.lib" /MACHINE:X64  /machine:x64 cmTC_61069.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_61069.vcxproj -> C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jxkdp2\\Debug\\cmTC_61069.exe
+        FinalizeBuildStatus:
+          Probˇh  odstraĺov nˇ souboru cmTC_61069.dir\\Debug\\cmTC_61069.tlog\\unsuccessfulbuild.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_61069.dir\\Debug\\cmTC_61069.tlog\\cmTC_61069.lastbuildstate.
+        Sestavenˇ projektu C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jxkdp2\\cmTC_61069.vcxproj (s věchozˇmi cˇli) bylo dokonźeno.
+        
+        Vytv ýenˇ sestavenˇ bylo ŁspŘçnŘ dokonźeno.
+            0 upozornŘnˇ
+            Poźet chyb: 0
+        
+        Uplynulě źas 00:00:01.51
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1604 (check_include_file)"
+    checks:
+      - "Looking for audioclient.h"
+    directories:
+      source: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-uku16v"
+      binary: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-uku16v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/skolo/izg/izg5/izg5/SDL/cmake"
+    buildResult:
+      variable: "HAVE_AUDIOCLIENT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-uku16v'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7a1fd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.8.5+b5265ef37 pro .NET Framework
+        Vytv ýenˇ sestavenˇ bylo zah jeno 17.04.2024 9:28:41.
+        
+        Projekt C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uku16v\\cmTC_7a1fd.vcxproj v uzlu 1 (věchozˇ cˇle).
+        PrepareForBuild:
+          Probˇh  vytv ýenˇ adres ýe cmTC_7a1fd.dir\\Debug\\.
+          Strukturovaně věstup je povoleně. Form tov nˇ diagnostiky kompil toru bude odr §et hierarchii chyb. Dalçˇ podrobnosti najdete na https://aka.ms/cpp/structured-output.
+          Probˇh  vytv ýenˇ adres ýe C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uku16v\\Debug\\.
+          Probˇh  vytv ýenˇ adres ýe cmTC_7a1fd.dir\\Debug\\cmTC_7a1fd.tlog\\.
+        InitializeBuildStatus:
+          Probˇh  vytv ýenˇ souboru cmTC_7a1fd.dir\\Debug\\cmTC_7a1fd.tlog\\unsuccessfulbuild v d…sledku zad nˇ AlwaysCreate.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_7a1fd.dir\\Debug\\cmTC_7a1fd.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a1fd.dir\\Debug\\\\" /Fd"cmTC_7a1fd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uku16v\\CheckIncludeFile.c"
+          Optimalizujˇcˇ kompil tor C/C++ spoleźnosti Microsoft (R) verze 19.38.33135 pro procesory x64
+          Copyright (C) Microsoft Corporation. Vçechna pr va vyhrazena.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a1fd.dir\\Debug\\\\" /Fd"cmTC_7a1fd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uku16v\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uku16v\\Debug\\cmTC_7a1fd.exe" /INCREMENTAL /ILK:"cmTC_7a1fd.dir\\Debug\\cmTC_7a1fd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-uku16v/Debug/cmTC_7a1fd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-uku16v/Debug/cmTC_7a1fd.lib" /MACHINE:X64  /machine:x64 cmTC_7a1fd.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_7a1fd.vcxproj -> C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uku16v\\Debug\\cmTC_7a1fd.exe
+        FinalizeBuildStatus:
+          Probˇh  odstraĺov nˇ souboru cmTC_7a1fd.dir\\Debug\\cmTC_7a1fd.tlog\\unsuccessfulbuild.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_7a1fd.dir\\Debug\\cmTC_7a1fd.tlog\\cmTC_7a1fd.lastbuildstate.
+        Sestavenˇ projektu C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uku16v\\cmTC_7a1fd.vcxproj (s věchozˇmi cˇli) bylo dokonźeno.
+        
+        Vytv ýenˇ sestavenˇ bylo ŁspŘçnŘ dokonźeno.
+            0 upozornŘnˇ
+            Poźet chyb: 0
+        
+        Uplynulě źas 00:00:01.52
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1605 (check_include_file)"
+    checks:
+      - "Looking for sensorsapi.h"
+    directories:
+      source: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-9jl8p8"
+      binary: "C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-9jl8p8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/skolo/izg/izg5/izg5/SDL/cmake"
+    buildResult:
+      variable: "HAVE_SENSORSAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-9jl8p8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_28c25.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild verze 17.8.5+b5265ef37 pro .NET Framework
+        Vytv ýenˇ sestavenˇ bylo zah jeno 17.04.2024 9:28:43.
+        
+        Projekt C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9jl8p8\\cmTC_28c25.vcxproj v uzlu 1 (věchozˇ cˇle).
+        PrepareForBuild:
+          Probˇh  vytv ýenˇ adres ýe cmTC_28c25.dir\\Debug\\.
+          Strukturovaně věstup je povoleně. Form tov nˇ diagnostiky kompil toru bude odr §et hierarchii chyb. Dalçˇ podrobnosti najdete na https://aka.ms/cpp/structured-output.
+          Probˇh  vytv ýenˇ adres ýe C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9jl8p8\\Debug\\.
+          Probˇh  vytv ýenˇ adres ýe cmTC_28c25.dir\\Debug\\cmTC_28c25.tlog\\.
+        InitializeBuildStatus:
+          Probˇh  vytv ýenˇ souboru cmTC_28c25.dir\\Debug\\cmTC_28c25.tlog\\unsuccessfulbuild v d…sledku zad nˇ AlwaysCreate.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_28c25.dir\\Debug\\cmTC_28c25.tlog\\unsuccessfulbuild.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28c25.dir\\Debug\\\\" /Fd"cmTC_28c25.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9jl8p8\\CheckIncludeFile.c"
+          Optimalizujˇcˇ kompil tor C/C++ spoleźnosti Microsoft (R) verze 19.38.33135 pro procesory x64
+          Copyright (C) Microsoft Corporation. Vçechna pr va vyhrazena.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28c25.dir\\Debug\\\\" /Fd"cmTC_28c25.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9jl8p8\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9jl8p8\\Debug\\cmTC_28c25.exe" /INCREMENTAL /ILK:"cmTC_28c25.dir\\Debug\\cmTC_28c25.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-9jl8p8/Debug/cmTC_28c25.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/skolo/izg/izg5/izg5/build/CMakeFiles/CMakeScratch/TryCompile-9jl8p8/Debug/cmTC_28c25.lib" /MACHINE:X64  /machine:x64 cmTC_28c25.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_28c25.vcxproj -> C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9jl8p8\\Debug\\cmTC_28c25.exe
+        FinalizeBuildStatus:
+          Probˇh  odstraĺov nˇ souboru cmTC_28c25.dir\\Debug\\cmTC_28c25.tlog\\unsuccessfulbuild.
+          Probˇh  aktualizace źasov‚ho razˇtka pro cmTC_28c25.dir\\Debug\\cmTC_28c25.tlog\\cmTC_28c25.lastbuildstate.
+        Sestavenˇ projektu C:\\skolo\\izg\\izg5\\izg5\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9jl8p8\\cmTC_28c25.vcxproj (s věchozˇmi cˇli) bylo dokonźeno.
+        
+        Vytv ýenˇ sestavenˇ bylo ŁspŘçnŘ dokonźeno.
+            0 upozornŘnˇ
+            Poźet chyb: 0
+        
+        Uplynulě źas 00:00:01.51
+        
+      exitCode: 0
+...
